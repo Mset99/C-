@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std; 
+
+class Calc
+{
+    int val2,val3;
+public:
+    Calc(int x,int y)
+    {
+        val2=x;
+        val3=y;
+    }
+    void hiteshAbc()
+    {
+        cout << val2 <<" "<< val3<<endl;
+    }
+};
+
+int main()
+{
+    Calc c1(10,20);
+    Calc c2(20,40);
+    Calc c3(30,60);
+    c1.hiteshAbc();
+    c2.hiteshAbc();
+    c3.hiteshAbc();
+}
